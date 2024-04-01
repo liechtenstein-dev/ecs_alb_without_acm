@@ -18,8 +18,3 @@ variable "bucket_openssl_name" {
   type = string
 }
 
-variable "bucket_alb_name" {
-  description = "The name of the bucket to store the ALB logs"
-  type = string
-}
-
